@@ -1,0 +1,38 @@
+{
+  "name": "@levimc-lse/interface-api",
+  "version": "0.0.0",
+  "description": "API for the logic tree development framework that supports cross-plugin UI queues at runtime in Minecraft Legacy Script Engine.",
+  "bugs": "https://github.com/leoweyr/LeviInterface/issues",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "compile": "tsc -p tsconfig.json",
+    "build": "npm run clean && npm run compile",
+    "local-deploy": "npm run build && npm link",
+    "deploy": "npm run build && npm publish --access=public"
+  },
+  "keywords": [
+    "levilamina",
+    "minecraft",
+    "bedrock-dedicated-server",
+    "api",
+    "ui",
+    "ui-queue",
+    "logic-tree",
+    "ux",
+    "socket",
+    "IPC"
+  ],
+  "author": "leoweyr <contact@leoweyr.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leoweyr/LeviInterface.git",
+    "directory": "packages/api"
+  }
+}
