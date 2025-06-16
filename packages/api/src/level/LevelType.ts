@@ -1,3 +1,4 @@
 export enum LevelType {
-    FORM = 1
+    FORM = 1,
+    TITLE = 2
 }
