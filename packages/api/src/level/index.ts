@@ -6,3 +6,4 @@ export { SimpleFormNode } from "./form/SimpleFormNode";
 export { CustomFormNode } from "./form/CustomFormNode";
 
 export { Title } from "./title/Title";
+export { SubTitle } from "./title/SubTitle";
