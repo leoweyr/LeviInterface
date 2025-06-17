@@ -2,12 +2,11 @@ import EventEmitter from "node:events";
 import * as net from "node:net";
 
 import { LevelType } from "../level";
+import { UiMaster } from "./UiMaster";
 import { UiStatus } from "./UiStatus";
 
 
 export class UiMailBox extends EventEmitter {
-    public static readonly PIPE_PATH: string = "\\\\?\\pipe\\levi_interface";
-
     private static instance: UiMailBox;
 
     public static getInstance(): UiMailBox {
@@ -48,12 +47,12 @@ export class UiMailBox extends EventEmitter {
                 logger.warn("Socket client closed. Reconnecting...");
 
                 setTimeout((): void => {
-                    this.client.connect(UiMailBox.PIPE_PATH);
+                    this.client.connect(UiMaster.PIPE_PATH);
                 });
             });
         });
 
-        this.client.connect(UiMailBox.PIPE_PATH);
+        this.client.connect(UiMaster.PIPE_PATH);
     }
 
     public pend(levelType: LevelType, targetPlayerIdentifier: string, triggerId: string, occupiedTicks: number): void {
