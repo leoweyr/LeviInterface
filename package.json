@@ -11,6 +11,7 @@
     "typescript": "^5.8.2",
     "@levimc-lse/types": "^2.16.3",
     "@levimc-lse/scaffold": "^0.2.2",
-    "conventional-changelog-cli": "^5.0.0"
+    "conventional-changelog-cli": "^5.0.0",
+    "@types/node": "^24.0.3"
   }
 }
