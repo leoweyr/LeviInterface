@@ -1,6 +1,6 @@
 {
   "name": "@levimc-lse/interface-core",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "The master plugin that provides cross-plugin UI queues in Minecraft Legacy Script Engine.",
   "private": true,
   "bugs": "https://github.com/leoweyr/LeviInterface/issues",
