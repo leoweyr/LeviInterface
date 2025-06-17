@@ -25,6 +25,9 @@
   ],
   "author": "leoweyr <contact@leoweyr.com>",
   "license": "MIT",
+  "dependencies": {
+    "@levimc-lse/interface-api": "^0.1.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/leoweyr/LeviInterface.git",
