@@ -1,6 +1,6 @@
 {
   "name": "@levimc-lse/interface-api",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "API for the logic tree development framework that supports cross-plugin UI queues at runtime in Minecraft Legacy Script Engine.",
   "bugs": "https://github.com/leoweyr/LeviInterface/issues",
   "main": "dist/index.js",
