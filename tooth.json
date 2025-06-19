@@ -14,7 +14,7 @@
       "logic-tree",
       "ux",
       "socket",
-      "IPC"
+      "ipc"
     ]
   },
   "variants": [
