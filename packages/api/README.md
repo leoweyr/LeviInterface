@@ -4,20 +4,6 @@ API for the logic tree development framework that supports cross-plugin UI queue
 
 ## ❗ Important
 
-All Legacy Script Engine plugins developed using this package <font color="red">must add LeviInterface master plugin as a dependency to their `manifest.json`:</font>
+All Legacy Script Engine plugins developed using this package <font color="red">must declare the LeviInterface master plugin as a dependency within their `manifest.json` file, located in the LeviLamina plugin's directory.</font> 
 
-```json
-{
-    "dependencies": [
-        {
-          "name": "LeviInterfaceMaster"
-        }
-	]
-}
-```
-
-Install the LeviInterface master plugin via lip in the LeviLamina server working directory:
-
-```bash
-lip install github.com/leoweyr/LeviInterface
-```
+For instructions on how to obtain the LeviInterface master plugin, please refer to the [repository](https://github.com/leoweyr/LeviInterface).
